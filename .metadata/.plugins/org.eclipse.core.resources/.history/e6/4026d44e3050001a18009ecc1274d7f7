@@ -8,6 +8,6 @@ spring:
         encrypt:
           enabled: true
         git:
-          uri: https://github.com/huelton/microservice_repository
+          uri: https://github.com/huelton/microservice_repository/
           search-paths: fornecedor, loja, transportador
   
