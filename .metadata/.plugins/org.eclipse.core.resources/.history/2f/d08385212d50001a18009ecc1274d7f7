@@ -1,0 +1,13 @@
+server:
+  port: 8888
+  
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: true
+        git:
+          uri: https://github.com/huelton/microservice-repo/tree/master/tcc/
+          search-paths: fornecedor, loja, transportador
+  
